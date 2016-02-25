@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D04B640D1C7F2D48007EB844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B640C1C7F2D48007EB844 /* AppDelegate.swift */; };
+		D04B640F1C7F2D48007EB844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B640E1C7F2D48007EB844 /* ViewController.swift */; };
+		D04B64121C7F2D48007EB844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04B64101C7F2D48007EB844 /* Main.storyboard */; };
+		D04B64141C7F2D48007EB844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04B64131C7F2D48007EB844 /* Assets.xcassets */; };
+		D04B64171C7F2D48007EB844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04B64151C7F2D48007EB844 /* LaunchScreen.storyboard */; };
+		D04B64221C7F2D48007EB844 /* MyMonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B64211C7F2D48007EB844 /* MyMonsterTests.swift */; };
+		D04B642D1C7F2D48007EB844 /* MyMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B642C1C7F2D48007EB844 /* MyMonsterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D04B641E1C7F2D48007EB844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04B64011C7F2D48007EB844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04B64081C7F2D48007EB844;
+			remoteInfo = MyMonster;
+		};
+		D04B64291C7F2D48007EB844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04B64011C7F2D48007EB844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04B64081C7F2D48007EB844;
+			remoteInfo = MyMonster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D04B64091C7F2D48007EB844 /* MyMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04B640C1C7F2D48007EB844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D04B640E1C7F2D48007EB844 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D04B64111C7F2D48007EB844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D04B64131C7F2D48007EB844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D04B64161C7F2D48007EB844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D04B64181C7F2D48007EB844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04B641D1C7F2D48007EB844 /* MyMonsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMonsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04B64211C7F2D48007EB844 /* MyMonsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMonsterTests.swift; sourceTree = "<group>"; };
+		D04B64231C7F2D48007EB844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04B64281C7F2D48007EB844 /* MyMonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04B642C1C7F2D48007EB844 /* MyMonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMonsterUITests.swift; sourceTree = "<group>"; };
+		D04B642E1C7F2D48007EB844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D04B64061C7F2D48007EB844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B641A1C7F2D48007EB844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B64251C7F2D48007EB844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D04B64001C7F2D48007EB844 = {
+			isa = PBXGroup;
+			children = (
+				D04B640B1C7F2D48007EB844 /* MyMonster */,
+				D04B64201C7F2D48007EB844 /* MyMonsterTests */,
+				D04B642B1C7F2D48007EB844 /* MyMonsterUITests */,
+				D04B640A1C7F2D48007EB844 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D04B640A1C7F2D48007EB844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D04B64091C7F2D48007EB844 /* MyMonster.app */,
+				D04B641D1C7F2D48007EB844 /* MyMonsterTests.xctest */,
+				D04B64281C7F2D48007EB844 /* MyMonsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D04B640B1C7F2D48007EB844 /* MyMonster */ = {
+			isa = PBXGroup;
+			children = (
+				D04B640C1C7F2D48007EB844 /* AppDelegate.swift */,
+				D04B640E1C7F2D48007EB844 /* ViewController.swift */,
+				D04B64101C7F2D48007EB844 /* Main.storyboard */,
+				D04B64131C7F2D48007EB844 /* Assets.xcassets */,
+				D04B64151C7F2D48007EB844 /* LaunchScreen.storyboard */,
+				D04B64181C7F2D48007EB844 /* Info.plist */,
+			);
+			path = MyMonster;
+			sourceTree = "<group>";
+		};
+		D04B64201C7F2D48007EB844 /* MyMonsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D04B64211C7F2D48007EB844 /* MyMonsterTests.swift */,
+				D04B64231C7F2D48007EB844 /* Info.plist */,
+			);
+			path = MyMonsterTests;
+			sourceTree = "<group>";
+		};
+		D04B642B1C7F2D48007EB844 /* MyMonsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D04B642C1C7F2D48007EB844 /* MyMonsterUITests.swift */,
+				D04B642E1C7F2D48007EB844 /* Info.plist */,
+			);
+			path = MyMonsterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D04B64081C7F2D48007EB844 /* MyMonster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04B64311C7F2D48007EB844 /* Build configuration list for PBXNativeTarget "MyMonster" */;
+			buildPhases = (
+				D04B64051C7F2D48007EB844 /* Sources */,
+				D04B64061C7F2D48007EB844 /* Frameworks */,
+				D04B64071C7F2D48007EB844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMonster;
+			productName = MyMonster;
+			productReference = D04B64091C7F2D48007EB844 /* MyMonster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D04B641C1C7F2D48007EB844 /* MyMonsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04B64341C7F2D48007EB844 /* Build configuration list for PBXNativeTarget "MyMonsterTests" */;
+			buildPhases = (
+				D04B64191C7F2D48007EB844 /* Sources */,
+				D04B641A1C7F2D48007EB844 /* Frameworks */,
+				D04B641B1C7F2D48007EB844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04B641F1C7F2D48007EB844 /* PBXTargetDependency */,
+			);
+			name = MyMonsterTests;
+			productName = MyMonsterTests;
+			productReference = D04B641D1C7F2D48007EB844 /* MyMonsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D04B64271C7F2D48007EB844 /* MyMonsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04B64371C7F2D48007EB844 /* Build configuration list for PBXNativeTarget "MyMonsterUITests" */;
+			buildPhases = (
+				D04B64241C7F2D48007EB844 /* Sources */,
+				D04B64251C7F2D48007EB844 /* Frameworks */,
+				D04B64261C7F2D48007EB844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04B642A1C7F2D48007EB844 /* PBXTargetDependency */,
+			);
+			name = MyMonsterUITests;
+			productName = MyMonsterUITests;
+			productReference = D04B64281C7F2D48007EB844 /* MyMonsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D04B64011C7F2D48007EB844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Peter Rule";
+				TargetAttributes = {
+					D04B64081C7F2D48007EB844 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2ZTS6UFEAK;
+					};
+					D04B641C1C7F2D48007EB844 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2ZTS6UFEAK;
+						TestTargetID = D04B64081C7F2D48007EB844;
+					};
+					D04B64271C7F2D48007EB844 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2ZTS6UFEAK;
+						TestTargetID = D04B64081C7F2D48007EB844;
+					};
+				};
+			};
+			buildConfigurationList = D04B64041C7F2D48007EB844 /* Build configuration list for PBXProject "MyMonster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D04B64001C7F2D48007EB844;
+			productRefGroup = D04B640A1C7F2D48007EB844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D04B64081C7F2D48007EB844 /* MyMonster */,
+				D04B641C1C7F2D48007EB844 /* MyMonsterTests */,
+				D04B64271C7F2D48007EB844 /* MyMonsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D04B64071C7F2D48007EB844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04B64171C7F2D48007EB844 /* LaunchScreen.storyboard in Resources */,
+				D04B64141C7F2D48007EB844 /* Assets.xcassets in Resources */,
+				D04B64121C7F2D48007EB844 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B641B1C7F2D48007EB844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B64261C7F2D48007EB844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D04B64051C7F2D48007EB844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04B640F1C7F2D48007EB844 /* ViewController.swift in Sources */,
+				D04B640D1C7F2D48007EB844 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B64191C7F2D48007EB844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04B64221C7F2D48007EB844 /* MyMonsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B64241C7F2D48007EB844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04B642D1C7F2D48007EB844 /* MyMonsterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D04B641F1C7F2D48007EB844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04B64081C7F2D48007EB844 /* MyMonster */;
+			targetProxy = D04B641E1C7F2D48007EB844 /* PBXContainerItemProxy */;
+		};
+		D04B642A1C7F2D48007EB844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04B64081C7F2D48007EB844 /* MyMonster */;
+			targetProxy = D04B64291C7F2D48007EB844 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D04B64101C7F2D48007EB844 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04B64111C7F2D48007EB844 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D04B64151C7F2D48007EB844 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04B64161C7F2D48007EB844 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D04B642F1C7F2D48007EB844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D04B64301C7F2D48007EB844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D04B64321C7F2D48007EB844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyMonster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.randrdev.MyMonster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D04B64331C7F2D48007EB844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyMonster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.randrdev.MyMonster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D04B64351C7F2D48007EB844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyMonsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.randrdev.MyMonsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMonster.app/MyMonster";
+			};
+			name = Debug;
+		};
+		D04B64361C7F2D48007EB844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyMonsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.randrdev.MyMonsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMonster.app/MyMonster";
+			};
+			name = Release;
+		};
+		D04B64381C7F2D48007EB844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyMonsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.randrdev.MyMonsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyMonster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D04B64391C7F2D48007EB844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyMonsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.randrdev.MyMonsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyMonster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D04B64041C7F2D48007EB844 /* Build configuration list for PBXProject "MyMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04B642F1C7F2D48007EB844 /* Debug */,
+				D04B64301C7F2D48007EB844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04B64311C7F2D48007EB844 /* Build configuration list for PBXNativeTarget "MyMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04B64321C7F2D48007EB844 /* Debug */,
+				D04B64331C7F2D48007EB844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D04B64341C7F2D48007EB844 /* Build configuration list for PBXNativeTarget "MyMonsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04B64351C7F2D48007EB844 /* Debug */,
+				D04B64361C7F2D48007EB844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D04B64371C7F2D48007EB844 /* Build configuration list for PBXNativeTarget "MyMonsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04B64381C7F2D48007EB844 /* Debug */,
+				D04B64391C7F2D48007EB844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D04B64011C7F2D48007EB844 /* Project object */;
+}
