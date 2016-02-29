@@ -60,38 +60,56 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="INk-IB-Zpu">
-                                <rect key="frame" x="155" y="126" width="290" height="98"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="lOC-Tk-7nm">
-                                        <rect key="frame" x="0.0" y="0.0" width="95" height="98"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="f24-jH-SaR">
-                                        <rect key="frame" x="195" y="0.0" width="95" height="98"/>
-                                    </imageView>
-                                </subviews>
-                            </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="fpo-o2-1cm">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="fpo-o2-1cm" customClass="MonsterImg" customModule="MyMonster" customModuleProvider="target">
                                 <rect key="frame" x="168" y="207" width="482" height="360"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="360" id="SvX-1W-AC6"/>
                                     <constraint firstAttribute="width" constant="482" id="tWZ-iY-RDA"/>
                                 </constraints>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="INk-IB-Zpu">
+                                <rect key="frame" x="155" y="126" width="290" height="98"/>
+                                <subviews>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="lOC-Tk-7nm" customClass="DragImg" customModule="MyMonster" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="95" height="98"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="f24-jH-SaR" customClass="DragImg" customModule="MyMonster" customModuleProvider="target">
+                                        <rect key="frame" x="195" y="0.0" width="95" height="98"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="enB-jM-us9"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="enB-jM-us9"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact" axis="vertical" spacing="30">
+                                    <mask key="constraints">
+                                        <include reference="enB-jM-us9"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Tfe-8r-DHD" secondAttribute="trailing" id="1RB-Rl-YQ9"/>
+                            <constraint firstItem="INk-IB-Zpu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="4db-6b-pcS"/>
                             <constraint firstItem="oEh-CO-gxS" firstAttribute="centerX" secondItem="o1e-by-8tT" secondAttribute="centerX" id="4lV-XR-Pmn"/>
+                            <constraint firstItem="INk-IB-Zpu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5tC-5I-F38"/>
                             <constraint firstItem="INk-IB-Zpu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Y6-H4-Bhm"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fpo-o2-1cm" secondAttribute="trailing" constant="-70" id="9Eo-TI-XUQ"/>
+                            <constraint firstItem="INk-IB-Zpu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="BWK-Rb-OZj"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fpo-o2-1cm" secondAttribute="bottom" constant="33" id="HFb-Fu-Pa0"/>
+                            <constraint firstItem="INk-IB-Zpu" firstAttribute="top" secondItem="o1e-by-8tT" secondAttribute="bottom" constant="18" id="IzE-sM-WI7"/>
                             <constraint firstItem="INk-IB-Zpu" firstAttribute="top" secondItem="o1e-by-8tT" secondAttribute="bottom" constant="18" id="MvN-gB-BQE"/>
                             <constraint firstItem="Tfe-8r-DHD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="P3U-OD-aBE"/>
                             <constraint firstAttribute="trailing" secondItem="cIN-rx-0KT" secondAttribute="trailing" id="Qox-gI-CR8"/>
                             <constraint firstItem="Tfe-8r-DHD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="T0v-7q-Hvw"/>
                             <constraint firstItem="fpo-o2-1cm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-30" id="Ude-pd-d7i"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Tfe-8r-DHD" secondAttribute="bottom" id="Z4X-8P-DxS"/>
+                            <constraint firstItem="INk-IB-Zpu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aBO-kp-rbK"/>
                             <constraint firstItem="o1e-by-8tT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="deJ-xf-ck0"/>
                             <constraint firstItem="o1e-by-8tT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kCb-TX-BHw"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cIN-rx-0KT" secondAttribute="bottom" id="kW4-YL-pea"/>
@@ -100,10 +118,32 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="4db-6b-pcS"/>
+                                <exclude reference="5tC-5I-F38"/>
+                                <exclude reference="8Y6-H4-Bhm"/>
+                                <exclude reference="BWK-Rb-OZj"/>
+                                <exclude reference="MvN-gB-BQE"/>
+                                <exclude reference="aBO-kp-rbK"/>
                                 <exclude reference="9Eo-TI-XUQ"/>
                             </mask>
                         </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="4db-6b-pcS"/>
+                                <include reference="BWK-Rb-OZj"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="aBO-kp-rbK"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="foodImg" destination="f24-jH-SaR" id="zXO-n3-wN5"/>
+                        <outlet property="heartImg" destination="lOC-Tk-7nm" id="Ru2-Tg-47j"/>
+                        <outlet property="monsterImg" destination="fpo-o2-1cm" id="6HO-Ep-2MP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

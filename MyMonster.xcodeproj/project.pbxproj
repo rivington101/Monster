@@ -14,6 +14,8 @@
 		D04B64171C7F2D48007EB844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04B64151C7F2D48007EB844 /* LaunchScreen.storyboard */; };
 		D04B64221C7F2D48007EB844 /* MyMonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B64211C7F2D48007EB844 /* MyMonsterTests.swift */; };
 		D04B642D1C7F2D48007EB844 /* MyMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B642C1C7F2D48007EB844 /* MyMonsterUITests.swift */; };
+		D04B643B1C80624B007EB844 /* Dragging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B643A1C80624B007EB844 /* Dragging.swift */; };
+		D04B643D1C807C2D007EB844 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B643C1C807C2D007EB844 /* MonsterImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D04B64281C7F2D48007EB844 /* MyMonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04B642C1C7F2D48007EB844 /* MyMonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMonsterUITests.swift; sourceTree = "<group>"; };
 		D04B642E1C7F2D48007EB844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04B643A1C80624B007EB844 /* Dragging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dragging.swift; sourceTree = "<group>"; };
+		D04B643C1C807C2D007EB844 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				D04B640C1C7F2D48007EB844 /* AppDelegate.swift */,
 				D04B640E1C7F2D48007EB844 /* ViewController.swift */,
+				D04B643A1C80624B007EB844 /* Dragging.swift */,
+				D04B643C1C807C2D007EB844 /* MonsterImg.swift */,
 				D04B64101C7F2D48007EB844 /* Main.storyboard */,
 				D04B64131C7F2D48007EB844 /* Assets.xcassets */,
 				D04B64151C7F2D48007EB844 /* LaunchScreen.storyboard */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04B643D1C807C2D007EB844 /* MonsterImg.swift in Sources */,
+				D04B643B1C80624B007EB844 /* Dragging.swift in Sources */,
 				D04B640F1C7F2D48007EB844 /* ViewController.swift in Sources */,
 				D04B640D1C7F2D48007EB844 /* AppDelegate.swift in Sources */,
 			);
